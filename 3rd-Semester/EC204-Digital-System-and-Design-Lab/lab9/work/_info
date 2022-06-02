@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab8/verilog
+vcomp2gen
+!s110 1638781513
+!i10b 1
+!s100 1YMozOSBCL5lPN;HR]Zcm2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBJ_SLT54C0aDM<kcYkdDL0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9
+w1638781507
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q1.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q1.v
+!i122 30
+L0 2 43
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638781512.000000
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q1.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vdff
+Z6 !s110 1638799307
+!i10b 1
+!s100 ?e;2GDL;fCid`Png]Efi63
+R0
+IOa[RnLRiADe2238cIdH;a0
+R1
+R2
+Z7 w1638799299
+Z8 8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q2.v
+Z9 FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q2.v
+!i122 72
+L0 42 9
+R3
+r1
+!s85 0
+31
+Z10 !s108 1638799307.000000
+Z11 !s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q2.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q2.v|
+!i113 1
+R4
+R5
+vfulladder
+R6
+!i10b 1
+!s100 JXoL[eY]KJY0j=cjd9YcB3
+R0
+I]HbgDRlBmfno:6D]Wa<>91
+R1
+R2
+R7
+R8
+R9
+!i122 72
+L0 37 4
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5
+Xq2_v_unit
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1638785370
+V:JDMQd_aQbgSNC4`UlQ=g3
+r1
+!s85 0
+!i10b 1
+!s100 ]cemKa^b]M14J5=C912D80
+I:JDMQd_aQbgSNC4`UlQ=g3
+!i103 1
+S1
+R2
+w1638785366
+R8
+R9
+!i122 36
+L0 50 0
+R3
+31
+!s108 1638785370.000000
+R11
+R12
+!i113 1
+R4
+R5
+vserial_adder
+R6
+!i10b 1
+!s100 Y4EAHMN3[zDZR[7e31^0e0
+R0
+I5Qe7Y9VRV5Mm[hWAnm;I]0
+R1
+R2
+R7
+R8
+R9
+!i122 72
+L0 2 34
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5
+vserialadder
+!s110 1638778974
+!i10b 1
+!s100 ;O_G_iASfzHB4CflB5<8?2
+R0
+IcC`zXK=h2m6k5o<k?`C<j3
+R1
+R2
+w1638738650
+R8
+R9
+!i122 11
+L0 2 46
+R3
+r1
+!s85 0
+31
+!s108 1638778973.000000
+R11
+R12
+!i113 1
+R4
+R5
+vshiftreg
+R6
+!i10b 1
+!s100 hzjW:UO1J?h3j]eg[im[o2
+R0
+I[NiD;WGN>IVbI??N`G6BS3
+R1
+R2
+R7
+R8
+R9
+!i122 72
+L0 52 10
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5
+vtestbench1
+Z13 !s110 1638798023
+!i10b 1
+!s100 [T]UzzZ@X0fO1<3bERi7k0
+R0
+IVZUXH946g]__96IT6h0P51
+R1
+R2
+w1638797910
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench1.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench1.v
+!i122 69
+L0 1 19
+R3
+r1
+!s85 0
+31
+Z14 !s108 1638798023.000000
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench1.v|
+!i113 1
+R4
+R5
+vtestbench2
+R13
+!i10b 1
+!s100 1<fGm@5zWRDh?aQ32hYdU1
+R0
+I8^WOR:E>?FA]YBDUYMHXh2
+R1
+R2
+w1638798014
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench2.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench2.v
+!i122 70
+L0 1 30
+R3
+r1
+!s85 0
+31
+R14
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench2.v|
+!i113 1
+R4
+R5

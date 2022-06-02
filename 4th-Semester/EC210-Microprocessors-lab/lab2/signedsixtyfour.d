@@ -1,0 +1,1 @@
+.\signedsixtyfour.o: signedsixtyfour.s

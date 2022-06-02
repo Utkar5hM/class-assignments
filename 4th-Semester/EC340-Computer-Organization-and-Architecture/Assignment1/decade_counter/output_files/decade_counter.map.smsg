@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at decade_counter.v(16): always construct contains both blocking and non-blocking assignments File: C:/assignment/decade_counter/decade_counter.v Line: 16

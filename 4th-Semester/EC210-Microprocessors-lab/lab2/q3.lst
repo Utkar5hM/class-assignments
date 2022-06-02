@@ -1,0 +1,89 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             Qtwo, CODE, READONLY
+    2 00000000                 EXPORT           Reset_Handler
+    3 00000000         Reset_Handler
+    4 00000000         ; Unsigned 64 Bit Utkarsh / Arnav
+    5 00000000 E3A01A3D 
+                       Start   MOV              R1, #0x0003D000 ; Value_1_low
+    6 00000004 E3E022E1        MVN              R2, #0x1000000E ; Value_1_high
+    7 00000008 E3A03A3D        MOV              R3, #0x0003D000 ; Value_2_low
+    8 0000000C E3E04CFF        MVN              R4, #0x0000FF00 ; Value_2_high
+    9 00000010 E0915003        ADDS             R5, R1, R3  ; value_3_low = Val
+                                                            ue_1_low + Value_2_
+                                                            low
+   10 00000014 E0A26004        ADC              R6, R2, R4  ; value_3_high = Va
+                                                            lue_1_high + Value_
+                                                            2_high
+   11 00000018 E0537001        SUBS             R7, R3, R1  ;  value_4_low = Va
+                                                            lue_2_low - Value_1
+                                                            _low   This will se
+                                                            t c=0 if it takes a
+                                                             borrow otherwise c
+                                                            =1
+   12 0000001C E0C48002        SBC              R8, R4, R2  ; value_4_high = Va
+                                                            lue_2_high - Value_
+                                                            1_high - carry_flag
+                                                            (indicating borrow 
+                                                            as said above) 
+   13 00000020 E0739001        RSBS             R9, R3, R1  ; value_5_low = Val
+                                                            ue_1_low - Value_2_
+                                                            low   This will set
+                                                             c=0 if it takes a 
+                                                            borrow otherwise c=
+                                                            1
+   14 00000024 E0E4A002        RSC              R10, R4, R2 ; value_5_high = Va
+                                                            lue_1_high - Value_
+                                                            2_high - carry_flag
+                                                            (indicating borrow 
+                                                            as said above) 
+   15 00000028 EAFFFFFE 
+                       Stop    B                Stop        ; Stop program
+   16 0000002C                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\q3.d -o.\q3.o -IC:\Kei
+l\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --list=.
+\q3.lst q3.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Qtwo 00000000
+
+Symbol: Qtwo
+   Definitions
+      At line 1 in file q3.s
+   Uses
+      None
+Comment: Qtwo unused
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 3 in file q3.s
+   Uses
+      At line 2 in file q3.s
+Comment: Reset_Handler used once
+Start 00000000
+
+Symbol: Start
+   Definitions
+      At line 5 in file q3.s
+   Uses
+      None
+Comment: Start unused
+Stop 00000028
+
+Symbol: Stop
+   Definitions
+      At line 15 in file q3.s
+   Uses
+      At line 15 in file q3.s
+Comment: Stop used once
+4 symbols
+335 symbols in table

@@ -1,0 +1,15 @@
+
+module division_tb(); 
+reg [7:0] X;
+reg [7:0] Y;
+wire [7:0] Out;
+division ut(.X(X),.Y(Y),.Out(Out));
+initial begin
+X = 89; Y = 10; #100;
+X = 30; Y = 2; #100;
+X = 59; Y = 20; #100;
+X = 77; Y = 3; #100;
+X = 98; Y = 10; #100;
+X = 220; Y = 3; #100;
+end
+endmodule

@@ -1,0 +1,8 @@
+module factorial (input [2:0]a, input clock, resetn, output reg [12:0] out, output reg done);
+reg [3:0] state, next_state;
+always @(posedge clock, negedge resetn)
+begin
+	if(!resetn) begin out <=0; done<= 0; end
+	state <= 
+end
+endmodule

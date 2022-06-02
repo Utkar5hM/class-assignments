@@ -1,0 +1,174 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Studies\College\4th_Sem\EC210 - Microprocessor's LAB\lab5\lab5.uvproj
+Project File Date:  03/21/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling q1.s...
+q1.s(18): error: A1116E: String operands can only be specified for DCB
+".\lab5.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q1.s...
+q1.s(11): error: A1516E: Bad symbol 'str_rev', not defined or external
+q1.s(19): warning: A1581W: Added 2 bytes of padding at address 0x1e
+".\lab5.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q1.s...
+q1.s(19): warning: A1581W: Added 2 bytes of padding at address 0x1e
+linking...
+Program Size: Code=44 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q1.s...
+q1.s(18): error: A1170E: Immediate 0x43D8E5F7 out of range for this operation, must be below (0x00010000)
+".\lab5.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q1.s...
+linking...
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling q1.s...
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling q1.s...
+q1.s(17): error: A1647E: Bad register name symbol, expected Integer register
+".\lab5.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q1.s...
+q1.s(18): error: A1647E: Bad register name symbol, expected Integer register
+".\lab5.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q1.s...
+linking...
+Program Size: Code=52 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling q1.s...
+linking...
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling q1.s...
+linking...
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling q1.s...
+linking...
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(15): error: A1854E: Unknown opcode 'UDIV', maybe wrong target CPU?
+".\lab5.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(11): error: A1517E: Unexpected operator equal to or equivalent to =
+".\lab5.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(11): error: A1517E: Unexpected operator equal to or equivalent to =
+".\lab5.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(32): warning: A1581W: Added 3 bytes of padding at address 0x41
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(32): warning: A1581W: Added 3 bytes of padding at address 0x41
+linking...
+Program Size: Code=92 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(32): warning: A1581W: Added 3 bytes of padding at address 0x41
+linking...
+Program Size: Code=80 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(35): warning: A1581W: Added 3 bytes of padding at address 0x4d
+linking...
+Program Size: Code=92 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(35): warning: A1581W: Added 3 bytes of padding at address 0x4d
+linking...
+Program Size: Code=92 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(35): warning: A1581W: Added 3 bytes of padding at address 0x4d
+linking...
+Program Size: Code=92 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(36): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+assembling q2.s...
+q2.s(38): warning: A1581W: Added 3 bytes of padding at address 0x51
+"q2.s" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+Rebuild target 'Target 1'
+assembling q3.s...
+q3.s(39): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=1028  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q3.s...
+q3.s(39): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=1028  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(38): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q2.s...
+q2.s(38): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=4  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q3.s...
+q3.s(39): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=1028  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q3.s...
+q3.s(39): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=1028  
+".\lab5.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling q3.s...
+q3.s(39): warning: A1581W: Added 3 bytes of padding at address 0x51
+linking...
+Program Size: Code=96 RO-data=0 RW-data=0 ZI-data=1028  
+".\lab5.axf" - 0 Errors, 1 Warning(s).

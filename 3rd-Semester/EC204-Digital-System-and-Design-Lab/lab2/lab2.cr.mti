@@ -1,0 +1,69 @@
+{D:/Studies/College/3rd Sem/EC-204/lab2/164HAdataflow.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/164HAdataflow.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfAdderdf
+
+Top level modules:
+	halfAdderdf
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/164FA2haor.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/164FA2haor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HalfAdderdf
+-- Compiling module FullAdder2haor
+
+Top level modules:
+	FullAdder2haor
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/Mux_2_1.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/Mux_2_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux_2_1
+
+Top level modules:
+	Mux_2_1
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/FourBitAdder.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/FourBitAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+-- Compiling module FourBitAdder
+
+Top level modules:
+	FourBitAdder
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/4bitadder.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/4bitadder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+-- Compiling module FourBitAdder
+
+Top level modules:
+	FourBitAdder
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/Test4bitadder.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/Test4bitadder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test4bitadder
+
+Top level modules:
+	Test4bitadder
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/164FAdataflow.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/164FAdataflow.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullAdderdf
+
+Top level modules:
+	fullAdderdf
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/1.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfAdder
+
+Top level modules:
+	halfAdder
+
+} {} {}} {D:/Studies/College/3rd Sem/EC-204/lab2/Majority4B.v} {1 {vlog -work work -stats=none {D:/Studies/College/3rd Sem/EC-204/lab2/Majority4B.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Majority4Var
+-- Compiling module Majority4VarTest
+
+Top level modules:
+	Majority4Var
+	Majority4VarTest
+
+} {} {}}

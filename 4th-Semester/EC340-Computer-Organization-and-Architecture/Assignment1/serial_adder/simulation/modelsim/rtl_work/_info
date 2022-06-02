@@ -1,0 +1,137 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/assignment/serial_adder/simulation/modelsim
+T_opt
+!s110 1645051176
+VL1PVe3=S36lEMYTRi6o9D0
+04 3 4 work tb2 fast 0
+=1-3c18a099164c-620d7d28-6c-1dd8
+!s124 OEM10U7 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vdflipflop
+Z2 !s110 1645051175
+!i10b 1
+!s100 moegQbnKeN@@ISS^1_h<o0
+IdQF?eVg]23K6TEF>ZgCSV0
+R0
+Z3 w1645020390
+Z4 8C:/assignment/serial_adder/serial_adder.v
+Z5 FC:/assignment/serial_adder/serial_adder.v
+!i122 0
+L0 40 9
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z8 !s108 1645051174.000000
+Z9 !s107 C:/assignment/serial_adder/serial_adder.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/assignment/serial_adder|C:/assignment/serial_adder/serial_adder.v|
+!i113 0
+Z11 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -vlog01compat -work work +incdir+C:/assignment/serial_adder -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfulladder
+R2
+!i10b 1
+!s100 :eY9UgE>bXfWYUC5?cLRT0
+I[nk72<H7R]<J]fVJHmcgd1
+R0
+R3
+R4
+R5
+!i122 0
+L0 35 4
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vserial_adder
+R2
+!i10b 1
+!s100 CUz5F99zWY:?TZR8TUO8L1
+IdDM`XJ2Via;<=OJI?46AZ3
+R0
+R3
+R4
+R5
+!i122 0
+L0 2 32
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vshiftreg
+R2
+!i10b 1
+!s100 4^R>NbnJ_LGYK>;>T6Kkd0
+I1K7YDiT7<bkh`AbK66JJY0
+R0
+R3
+R4
+R5
+!i122 0
+L0 50 8
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vtb2
+R2
+!i10b 1
+!s100 62XJ6I1mj<LIomGA[h6FI3
+IB^2<PkaO=hL<i[AEl63@[2
+R0
+w1645020510
+8C:/assignment/serial_adder/testbench2.v
+FC:/assignment/serial_adder/testbench2.v
+!i122 1
+L0 1 31
+R6
+R7
+r1
+!s85 0
+31
+!s108 1645051175.000000
+!s107 C:/assignment/serial_adder/testbench2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/assignment/serial_adder|C:/assignment/serial_adder/testbench2.v|
+!i113 0
+R11
+R12
+R1

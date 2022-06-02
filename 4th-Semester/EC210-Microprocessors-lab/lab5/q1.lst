@@ -1,0 +1,110 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             AllocSpace, DATA,NOINIT,READWRI
+TE
+    2 00000000         ;Space for storing reversed string
+    3 00000000         result  SPACE            1           ;
+    4 00000001         ;Actual Code
+    5 00000001                 AREA             hmm, CODE, READWRITE
+    6 00000000                 EXPORT           Reset_Handler
+    7 00000000         Reset_Handler
+    8 00000000         ;address to the input number
+    9 00000000 E59F102C        LDR              R1, =inputnumber ;
+   10 00000004         ;address to the result
+   11 00000004 E59F202C        LDR              R2, =result ;
+   12 00000008         ; load the  input number from memory
+   13 00000008 E5913000        LDR              R3, [R1]    ;
+   14 0000000C         ; Getting the last bit
+   15 0000000C E2034001        AND              R4, R3, #1  ;
+   16 00000010         ; Checking if it is zero
+   17 00000010 E3540000        CMP              R4, #0      ;
+   18 00000014         ;if not zero-> not divisible.
+   19 00000014 13A040FF        MOVNE            R4, #0xFF   ;
+   20 00000018         ; storing result as 0xFF;
+   21 00000018 15C24000        STRBNE           R4, [R2]    ;
+   22 0000001C 1A000001        BNE              stop
+   23 00000020         ; if zero ->divisible
+   24 00000020 E2844001        ADD              R4, R4, #1  ;
+   25 00000024         ; storing result as 1;
+   26 00000024 E5824000        STR              R4, [R2]    ; storing 0 
+   27 00000028 EAFFFFFE 
+                       stop    BAL              stop
+   28 0000002C         ; input_number
+   29 0000002C 4FF02ED6 
+                       inputnumber
+                               DCD              0x4FF02ED6  ;
+   30 00000030 E1A00000        NOP
+   31 00000034                 END
+              00000000 
+              00000000 
+Command Line: --debug --xref --apcs=interwork --depend=.\q1.d -o.\q1.o -IC:\Kei
+l\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --list=.
+\q1.lst q1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+AllocSpace 00000000
+
+Symbol: AllocSpace
+   Definitions
+      At line 1 in file q1.s
+   Uses
+      None
+Comment: AllocSpace unused
+result 00000000
+
+Symbol: result
+   Definitions
+      At line 3 in file q1.s
+   Uses
+      At line 11 in file q1.s
+Comment: result used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 7 in file q1.s
+   Uses
+      At line 6 in file q1.s
+Comment: Reset_Handler used once
+hmm 00000000
+
+Symbol: hmm
+   Definitions
+      At line 5 in file q1.s
+   Uses
+      None
+Comment: hmm unused
+inputnumber 0000002C
+
+Symbol: inputnumber
+   Definitions
+      At line 29 in file q1.s
+   Uses
+      At line 9 in file q1.s
+Comment: inputnumber used once
+stop 00000028
+
+Symbol: stop
+   Definitions
+      At line 27 in file q1.s
+   Uses
+      At line 22 in file q1.s
+      At line 27 in file q1.s
+
+4 symbols
+339 symbols in table

@@ -1,0 +1,25 @@
+{E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q2.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module serial_adder
+-- Compiling module fulladder
+-- Compiling module dff
+-- Compiling module shiftreg
+
+Top level modules:
+	serial_adder
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench1.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/testbench1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench1
+
+Top level modules:
+	testbench1
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q1.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab9/q1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comp2gen
+
+Top level modules:
+	comp2gen
+
+} {} {}}

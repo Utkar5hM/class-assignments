@@ -1,0 +1,318 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vdecadeCounter
+!s110 1637571285
+!i10b 1
+!s100 LNI8NB>L3BlEaQCgciH883
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzBYnP5NBkjghEKXY73O8z0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7
+w1637571255
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/DecadeCounter.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/DecadeCounter.v
+!i122 66
+L0 1 28
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1637571285.000000
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/DecadeCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/DecadeCounter.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+ndecade@counter
+vprogramCounter
+Z6 !s110 1637569840
+!i10b 1
+!s100 6?z9KmQVF7VU:PO80Tc7Z1
+R0
+IZ9idzbDm^gj2<k_33bCYn0
+R1
+R2
+w1637555502
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/programCounter.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/programCounter.v
+!i122 54
+Z7 L0 1 13
+R3
+r1
+!s85 0
+31
+Z8 !s108 1637569840.000000
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/programCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/programCounter.v|
+!i113 1
+R4
+R5
+nprogram@counter
+vpseudoRandomSeqGenerator
+R6
+!i10b 1
+!s100 7=hAoX7G97WEeT_zD@oC[0
+R0
+IRNAB=ZO4k>99eYig6?6XI2
+R1
+R2
+w1637562583
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/pseudoRandomSeqGenerator.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/pseudoRandomSeqGenerator.v
+!i122 57
+L0 2 14
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/pseudoRandomSeqGenerator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/pseudoRandomSeqGenerator.v|
+!i113 1
+R4
+R5
+npseudo@random@seq@generator
+vrignCounterSelfCorrecting
+Z9 !s110 1637574042
+!i10b 1
+!s100 g]1Z8K`5WnFo?=XHEO;Rg2
+R0
+IJGZd5T74hUiZHQdC1<AHL0
+R1
+R2
+w1637560394
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/ringcounterselfcorrecting.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/ringcounterselfcorrecting.v
+!i122 73
+L0 2 11
+R3
+r1
+!s85 0
+31
+Z10 !s108 1637574042.000000
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/ringcounterselfcorrecting.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/ringcounterselfcorrecting.v|
+!i113 1
+R4
+R5
+nrign@counter@self@correcting
+vshiftRegister74194
+R6
+!i10b 1
+!s100 WMAc4;4j64GST9hedfM;b2
+R0
+IU0edQR5LjjV;@Zbn10B^c0
+R1
+R2
+w1637569519
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/shiftRegister74194.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/shiftRegister74194.v
+!i122 55
+L0 1 15
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/shiftRegister74194.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/shiftRegister74194.v|
+!i113 1
+R4
+R5
+nshift@register74194
+Xtestbench1_v_unit
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1637563337
+V81b]3JME?IO9Zl?VG?eER3
+r1
+!s85 0
+!i10b 1
+!s100 <WS>Eg>FMdn3io<`QoYN_3
+I81b]3JME?IO9Zl?VG?eER3
+!i103 1
+S1
+R2
+w1637563335
+Z11 8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench1.v
+Z12 FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench1.v
+!i122 18
+L0 22 0
+R3
+31
+!s108 1637563337.000000
+Z13 !s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench1.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench1.v|
+!i113 1
+R4
+R5
+vtestbench_1
+R6
+!i10b 1
+!s100 0P0CgUYT>MInLO9haPA2n2
+R0
+IT`^aESgF7<?];FS5MM6Id1
+R1
+R2
+w1637566791
+R11
+R12
+!i122 58
+L0 2 25
+R3
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 1
+R4
+R5
+vtestbench_2
+R6
+!i10b 1
+!s100 FZ^6GS>;TEOo0[JWidLb90
+R0
+I1Ui]TDh4_fnKC>YN3X^>X0
+R1
+R2
+w1637567838
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench2.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench2.v
+!i122 59
+L0 1 25
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench2.v|
+!i113 1
+R4
+R5
+vtestbench_3
+!s110 1637569841
+!i10b 1
+!s100 VkD<b7I?L^eJWiX9o7jQ;2
+R0
+IKfd00<kFM1J6eGIBj<TCQ2
+R1
+R2
+w1637568642
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench3.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench3.v
+!i122 60
+L0 2 21
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench3.v|
+!i113 1
+R4
+R5
+vtestbench_4
+!s110 1637573501
+!i10b 1
+!s100 BE_C69eOQj<ZVF6MkRiLm0
+R0
+I9IO]4Qm3>6WF>jkUQM<Xf3
+R1
+R2
+w1637573475
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench4.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench4.v
+!i122 70
+L0 1 32
+R3
+r1
+!s85 0
+31
+!s108 1637573500.000000
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench4.v|
+!i113 1
+R4
+R5
+vtestbench_5
+R9
+!i10b 1
+!s100 8V=ia8i`<jUB[_Vmz8Ej=3
+R0
+IknD1gQVkcgP@^ZPZaaOHX1
+R1
+R2
+w1637574034
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench5.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench5.v
+!i122 74
+L0 2 13
+R3
+r1
+!s85 0
+31
+R10
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench5.v|
+!i113 1
+R4
+R5
+vtestbench_6
+!s110 1637570553
+!i10b 1
+!s100 APZ9[^dn2QJOiio]C078B1
+R0
+I_4bKdBWL]^A;UZId?]W7E0
+R1
+R2
+w1637570538
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench6.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench6.v
+!i122 65
+R7
+R3
+r1
+!s85 0
+31
+!s108 1637570553.000000
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench6.v|
+!i113 1
+R4
+R5
+vtwoDigitDecadeCounter
+R6
+!i10b 1
+!s100 Eo^?Q]MJE?bDgKb4W<BWl0
+R0
+I7@zM1WLYXN3eP_TT4HWai3
+R1
+R2
+w1637567791
+8E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/twoDigitDecadeCounter.v
+FE:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/twoDigitDecadeCounter.v
+!i122 53
+L0 1 26
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/twoDigitDecadeCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/twoDigitDecadeCounter.v|
+!i113 1
+R4
+R5
+ntwo@digit@decade@counter

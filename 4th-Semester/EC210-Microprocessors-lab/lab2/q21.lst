@@ -1,0 +1,79 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             Qone, CODE, READONLY
+    2 00000000                 EXPORT           Reset_Handler
+    3 00000000         Reset_Handler
+    4 00000000         ; 32 bit unsigned Utkarsh / Arnav
+    5 00000000 E3A016FA 
+                       Start   MOV              R1, #0x0FA00000 ; Value_1
+    6 00000004 E3E0213F        MVN              R2, #0xC000000F ; Value_2
+    7 00000008 E0813002        ADD              R3, R1, R2  ; Value_3 = Value_1
+                                                             + Value_2
+    8 0000000C E0914003        ADDS             R4, R1, R3  ; Value_3 = Value_1
+                                                             + Value_2 but upda
+                                                            tes CPSR
+    9 00000010 E2435C4D        SUB              R5, R3, #0x4D00 ; Value_4 = Val
+                                                            ue_3 - 0x4000
+   10 00000014 E0546002        SUBS             R6, R4, R2  ; Value_5 = Value_3
+                                                             -Value_2
+   11 00000018 E0617004        RSB              R7, R1, R4  ; Value_6 = Value_1
+                                                             - Value_3 
+   12 0000001C E3E08001        MVN              R8, #0x01   ; Value_7 = ~Value_
+                                                            3
+   13 00000020 E0929008        ADDS             R9, R2, R8  ; Value_8 = Value_2
+                                                             + Value_7 & update
+                                                            s CPSR
+   14 00000024 E2A7A001        ADC              R10, R7, #1 ; Value_9 = Value_6
+                                                             + 1 + C
+   15 00000028 E2CAB001        SBC              R11, R10, #1 ; Value_10 = Value
+                                                            _9 - 1 
+   16 0000002C EAFFFFFE 
+                       Stop    B                Stop        ; Stop program
+   17 00000030                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\q21.d -o.\q21.o -IC:\K
+eil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --list
+=.\q21.lst q21.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Qone 00000000
+
+Symbol: Qone
+   Definitions
+      At line 1 in file q21.s
+   Uses
+      None
+Comment: Qone unused
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 3 in file q21.s
+   Uses
+      At line 2 in file q21.s
+Comment: Reset_Handler used once
+Start 00000000
+
+Symbol: Start
+   Definitions
+      At line 5 in file q21.s
+   Uses
+      None
+Comment: Start unused
+Stop 0000002C
+
+Symbol: Stop
+   Definitions
+      At line 16 in file q21.s
+   Uses
+      At line 16 in file q21.s
+Comment: Stop used once
+4 symbols
+335 symbols in table

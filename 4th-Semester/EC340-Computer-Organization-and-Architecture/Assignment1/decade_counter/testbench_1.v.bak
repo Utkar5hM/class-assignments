@@ -1,0 +1,25 @@
+module testbench_1();
+integer i;
+reg clk, counter_on, reset, load, counter_up;
+reg [3:0] data_in;
+wire [3:0] count;
+wire TC;
+decade_Counter d1(.count_upcount_up(count_up),
+.load(load), .reset(reset), .counter_on(counter_on),
+.clk(clk), .data_in(data_in), .count(count), .TC(TC));
+initial
+begin
+resetn=1;
+load=0; data_in =4'b1000;
+counter_on=1; count_up =1;
+for( i=0; i<5; i=i+1)begin
+clk =1; #20; clk =0; #20;
+end
+load =1;
+clk =1; #20; clk =0; #20; load =0;
+counter_up =0;
+for( i=0; i<5; i=i+1)begin
+clk =1; #20; clk =0; #20;
+end
+end
+endmodule

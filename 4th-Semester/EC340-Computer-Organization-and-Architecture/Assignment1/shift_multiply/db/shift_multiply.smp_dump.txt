@@ -1,0 +1,13 @@
+
+State Machine - |shift_multiply|state_q
+Name state_q.S9 state_q.S8 state_q.S7 state_q.S6 state_q.S5 state_q.S4 state_q.S3 state_q.S2 state_q.S1 state_q.S0 
+state_q.S0 0 0 0 0 0 0 0 0 0 0 
+state_q.S1 0 0 0 0 0 0 0 0 1 1 
+state_q.S2 0 0 0 0 0 0 0 1 0 1 
+state_q.S3 0 0 0 0 0 0 1 0 0 1 
+state_q.S4 0 0 0 0 0 1 0 0 0 1 
+state_q.S5 0 0 0 0 1 0 0 0 0 1 
+state_q.S6 0 0 0 1 0 0 0 0 0 1 
+state_q.S7 0 0 1 0 0 0 0 0 0 1 
+state_q.S8 0 1 0 0 0 0 0 0 0 1 
+state_q.S9 1 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,56 @@
+# Compile of q1.v was successful.
+vsim -gui work.testfunction
+# vsim -gui work.testfunction 
+# Start time: 23:00:49 on Oct 17,2021
+# Loading work.testfunction
+# Loading work.twofourdecoder
+run -all
+vsim -gui work.testfunction work.twofourdecoder
+# End time: 23:01:30 on Oct 17,2021, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 2
+# vsim -gui work.testfunction work.twofourdecoder 
+# Start time: 23:01:30 on Oct 17,2021
+# Loading work.testfunction
+# Loading work.twofourdecoder
+run -all
+add wave -position end  sim:/testfunction/X
+add wave -position end  sim:/testfunction/Y
+add wave -position end  sim:/testfunction/a
+run
+# Compile of q1.v was successful.
+run
+run
+run
+run
+run
+# Compile of q1.v was successful.
+vsim -gui work.testfunction work.twofourdecoder
+# End time: 23:10:44 on Oct 17,2021, Elapsed time: 0:09:14
+# Errors: 0, Warnings: 3
+# vsim -gui work.testfunction work.twofourdecoder 
+# Start time: 23:10:44 on Oct 17,2021
+# Loading work.testfunction
+# Loading work.twofourdecoder
+add wave -position end  sim:/testfunction/X
+add wave -position end  sim:/testfunction/Y
+add wave -position end  sim:/testfunction/a
+run
+run
+run
+run
+run
+# Compile of q1.v failed with 1 errors.
+# Compile of q1.v was successful.
+# Compile of q1.v was successful.
+run -all
+vsim -gui work.testfunction work.twofourdecoder
+# End time: 23:12:46 on Oct 17,2021, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 4
+# vsim -gui work.testfunction work.twofourdecoder 
+# Start time: 23:12:46 on Oct 17,2021
+# Loading work.testfunction
+# Loading work.twofourdecoder
+add wave -position end  sim:/testfunction/X
+add wave -position end  sim:/testfunction/Y
+add wave -position end  sim:/testfunction/a
+run -all

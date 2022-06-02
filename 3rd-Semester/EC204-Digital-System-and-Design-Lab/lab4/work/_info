@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vtestfunction
+Z0 !s110 1634492540
+!i10b 1
+!s100 EA@hZgk9fBC3_]H<5VfVC0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVJ<TM@RRm96g;SAbSi@082
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/ut2/Ut/Studies/College/3rd Sem/EC-204/lab4
+Z4 w1634492524
+Z5 8E:/ut2/Ut/Studies/College/3rd Sem/EC-204/lab4/q1.v
+Z6 FE:/ut2/Ut/Studies/College/3rd Sem/EC-204/lab4/q1.v
+!i122 9
+L0 11 14
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1634492540.000000
+!s107 E:/ut2/Ut/Studies/College/3rd Sem/EC-204/lab4/q1.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/ut2/Ut/Studies/College/3rd Sem/EC-204/lab4/q1.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vtwofourdecoder
+R0
+!i10b 1
+!s100 G1NRa0d_d9NUJIzB;NFi?0
+R1
+I3XfzS<JVkMQYmW8g2XCYP3
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 1 9
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 E:/ut2/Ut/Studies/College/3rd Sem/EC-204/lab4/q1.v|
+R9
+!i113 1
+R10
+R11

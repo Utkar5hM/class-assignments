@@ -1,0 +1,22 @@
+module decade_counter (count_up, reset, load, counter_on, clk, data_in, count, TC);
+input count_up, reset, load, counter_on, clk;
+input [3:0] data_in;
+output [3;0]count;
+output TC;
+
+always @ (posedge clk or negedge reset) begin
+	if(!reset) count <= 0;
+	else if(load) count <= data_in;
+		else begin
+			if(counter_on) begin
+				if(count_up) begin
+					if(count==4'b1001) count <= 4'b0;
+					else count <= count +1;
+				end else begin
+					if(count==4'b0000) count <= 4'b1001;
+					else count <= count -1;
+				end
+			end
+		end
+end
+endmodule

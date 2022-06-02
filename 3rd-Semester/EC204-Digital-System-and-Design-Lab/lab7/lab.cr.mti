@@ -1,0 +1,85 @@
+{E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench1.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench_1
+
+Top level modules:
+	testbench_1
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/ringcounterselfcorrecting.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/ringcounterselfcorrecting.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rignCounterSelfCorrecting
+
+Top level modules:
+	rignCounterSelfCorrecting
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench2.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench_2
+
+Top level modules:
+	testbench_2
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench3.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench_3
+
+Top level modules:
+	testbench_3
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench4.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench_4
+
+Top level modules:
+	testbench_4
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench5.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench_5
+
+Top level modules:
+	testbench_5
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench6.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/testbench6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench_6
+
+Top level modules:
+	testbench_6
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/pseudoRandomSeqGenerator.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/pseudoRandomSeqGenerator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pseudoRandomSeqGenerator
+
+Top level modules:
+	pseudoRandomSeqGenerator
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/twoDigitDecadeCounter.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/twoDigitDecadeCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module twoDigitDecadeCounter
+
+Top level modules:
+	twoDigitDecadeCounter
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/shiftRegister74194.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/shiftRegister74194.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shiftRegister74194
+
+Top level modules:
+	shiftRegister74194
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/DecadeCounter.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/DecadeCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decadeCounter
+
+Top level modules:
+	decadeCounter
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/programCounter.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab7/programCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module programCounter
+
+Top level modules:
+	programCounter
+
+} {} {}}

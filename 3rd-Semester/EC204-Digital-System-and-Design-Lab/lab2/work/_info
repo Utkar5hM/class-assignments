@@ -1,0 +1,443 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+X_4bitadder_v_unit
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1632683383
+VXleNQnX::3hZA[?n;aZL_1
+r1
+!s85 0
+!i10b 1
+!s100 18Y2nY4g=ZSU`CQi^LTK50
+IXleNQnX::3hZA[?n;aZL_1
+!i103 1
+S1
+Z0 dD:/Studies/College/3rd Sem/EC-204/lab2
+w1632683381
+Z1 8D:/Studies/College/3rd Sem/EC-204/lab2/4bitadder.v
+Z2 FD:/Studies/College/3rd Sem/EC-204/lab2/4bitadder.v
+!i122 13
+L0 16 0
+Z3 OV;L;2020.1;71
+31
+!s108 1632683383.000000
+Z4 !s107 D:/Studies/College/3rd Sem/EC-204/lab2/4bitadder.v|
+Z5 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/4bitadder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@_4bitadder_v_unit
+vFourBitAdder
+Z8 !s110 1632735644
+!i10b 1
+!s100 >nIQ8URzTREcWGiYG`QkM3
+Z9 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>^=Q<9RL?eW:U<zIg0N;M0
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z11 w1632689788
+R1
+R2
+!i122 67
+L0 6 11
+R3
+r1
+!s85 0
+31
+Z12 !s108 1632735643.000000
+R4
+R5
+!i113 1
+R6
+R7
+n@four@bit@adder
+vFullAdder
+R8
+!i10b 1
+!s100 T:[VHE@BLC_cYdXN?Ta]h0
+R9
+IkVGW<?]=1^a76?@cboaeZ3
+R10
+R0
+R11
+R1
+R2
+!i122 67
+Z13 L0 1 4
+R3
+r1
+!s85 0
+31
+R12
+R4
+R5
+!i113 1
+R6
+R7
+n@full@adder
+vFullAdder2haor
+Z14 !s110 1632676815
+!i10b 1
+!s100 >AX`Dib:N_lOaO[[>X7^V2
+R9
+IHfXZE:^=AB1>QWVDVR]T@1
+R10
+R0
+Z15 w1632676811
+Z16 8D:/Studies/College/3rd Sem/EC-204/lab2/164FA2haor.v
+Z17 FD:/Studies/College/3rd Sem/EC-204/lab2/164FA2haor.v
+!i122 8
+Z18 L0 6 6
+R3
+r1
+!s85 0
+31
+Z19 !s108 1632676815.000000
+Z20 !s107 D:/Studies/College/3rd Sem/EC-204/lab2/164FA2haor.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/164FA2haor.v|
+!i113 1
+R6
+R7
+n@full@adder2haor
+vFullAdderdf
+!s110 1632676785
+!i10b 1
+!s100 kA@9K6ezjReAW6folDG0i2
+R9
+IXn:B1?SC[Kcgc=eBXlHJ@1
+R10
+R0
+w1632676776
+R16
+R17
+!i122 7
+R18
+R3
+r1
+!s85 0
+31
+!s108 1632676785.000000
+R20
+R21
+!i113 1
+R6
+R7
+n@full@adderdf
+vfullAdderdf
+!s110 1632674480
+!i10b 1
+!s100 oaC9^F6hj99_aSWmc8KOS3
+R9
+IU`?@h0lRXRYP1PfGMX38g0
+R10
+R0
+w1632674473
+8D:/Studies/College/3rd Sem/EC-204/lab2/164FAdataflow.v
+FD:/Studies/College/3rd Sem/EC-204/lab2/164FAdataflow.v
+!i122 6
+R13
+R3
+r1
+!s85 0
+31
+!s108 1632674480.000000
+!s107 D:/Studies/College/3rd Sem/EC-204/lab2/164FAdataflow.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/164FAdataflow.v|
+!i113 1
+R6
+R7
+nfull@adderdf
+vhalfAdder
+!s110 1632671968
+!i10b 1
+!s100 fVa^2l:SVhGL`08JdDZ`@2
+R9
+I__o8G`2BhSHn]DO4N^G7<3
+R10
+R0
+w1632671965
+Z22 8D:/Studies/College/3rd Sem/EC-204/lab2/164HAdataflow.v
+Z23 FD:/Studies/College/3rd Sem/EC-204/lab2/164HAdataflow.v
+!i122 3
+R13
+R3
+r1
+!s85 0
+31
+!s108 1632671968.000000
+Z24 !s107 D:/Studies/College/3rd Sem/EC-204/lab2/164HAdataflow.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/164HAdataflow.v|
+!i113 1
+R6
+R7
+nhalf@adder
+vHalfAdderdf
+R14
+!i10b 1
+!s100 ThAEfI8V=hn6nCoB7Od4n3
+R9
+Ic:NF8ba9Q<aN:`eTzXBNj0
+R10
+R0
+R15
+R16
+R17
+!i122 8
+R13
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R6
+R7
+n@half@adderdf
+vhalfAdderdf
+!s110 1632672088
+!i10b 1
+!s100 ^F^2L@9c:M>JnOICQZjlL2
+R9
+I6eo@Si<S2IG[74i?P42Ih1
+R10
+R0
+w1632672077
+R22
+R23
+!i122 4
+R13
+R3
+r1
+!s85 0
+31
+!s108 1632672088.000000
+R24
+R25
+!i113 1
+R6
+R7
+nhalf@adderdf
+vMajor4B
+Z26 !s110 1632694185
+!i10b 1
+!s100 5g?]m61?0Hm<=<CMPj2O61
+R9
+Igf>@jikbBmK9GQNXPMJnQ1
+R10
+R0
+Z27 w1632694180
+Z28 8D:/Studies/College/3rd Sem/EC-204/lab2/Majority4B.v
+Z29 FD:/Studies/College/3rd Sem/EC-204/lab2/Majority4B.v
+!i122 55
+Z30 L0 1 3
+R3
+r1
+!s85 0
+31
+Z31 !s108 1632694185.000000
+Z32 !s107 D:/Studies/College/3rd Sem/EC-204/lab2/Majority4B.v|
+Z33 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/Majority4B.v|
+!i113 1
+R6
+R7
+n@major4@b
+vMajority4B
+R26
+!i10b 1
+!s100 Gz@d6HB7cB8T6hz=cJ4o83
+R9
+IXZT`kSSFmieK^<:oFWeNF1
+R10
+R0
+R27
+R28
+R29
+!i122 55
+Z34 L0 5 23
+R3
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R6
+R7
+n@majority4@b
+vMajority4Var
+Z35 !s110 1632694724
+!i10b 1
+!s100 ^X;^7VcGgXbgGof>L;Lzg3
+R9
+IahYY3zV3zj5>2Dkek:cEP2
+R10
+R0
+Z36 w1632694722
+R28
+R29
+!i122 63
+R30
+R3
+r1
+!s85 0
+31
+Z37 !s108 1632694724.000000
+R32
+R33
+!i113 1
+R6
+R7
+n@majority4@var
+vMajority4VarTest
+R35
+!i10b 1
+!s100 c`<Ak2@?AE8@5X?@4M>Ho3
+R9
+IW6:Oc9zEYc16Pi3W`9Pdm2
+R10
+R0
+R36
+R28
+R29
+!i122 63
+R34
+R3
+r1
+!s85 0
+31
+R37
+R32
+R33
+!i113 1
+R6
+R7
+n@majority4@var@test
+vMux_2_1
+!s110 1632683215
+!i10b 1
+!s100 5nc`jZ`]]Z`XgO98EANCW2
+R9
+Id2DWecFQmYQoi3ZU23JI01
+R10
+R0
+w1632679480
+8D:/Studies/College/3rd Sem/EC-204/lab2/Mux_2_1.v
+FD:/Studies/College/3rd Sem/EC-204/lab2/Mux_2_1.v
+!i122 10
+L0 1 7
+R3
+r1
+!s85 0
+31
+!s108 1632683215.000000
+!s107 D:/Studies/College/3rd Sem/EC-204/lab2/Mux_2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/Mux_2_1.v|
+!i113 1
+R6
+R7
+n@mux_2_1
+vtest4bitadder
+!s110 1632689333
+!i10b 1
+!s100 AN=IGILGHcB02T<:`eM:U1
+R9
+IzDHMc88K?34im]l_9Tc703
+R10
+R0
+w1632689330
+R1
+R2
+!i122 39
+L0 18 45
+R3
+r1
+!s85 0
+31
+!s108 1632689333.000000
+R4
+R5
+!i113 1
+R6
+R7
+vTest4bitadder
+!s110 1632713521
+!i10b 1
+!s100 >Y;53>OM@_YnUTiNUAe[I1
+R9
+If[mOgm;Kk:ZNozH3aWeDJ1
+R10
+R0
+w1632713496
+8D:/Studies/College/3rd Sem/EC-204/lab2/Test4bitadder.v
+FD:/Studies/College/3rd Sem/EC-204/lab2/Test4bitadder.v
+!i122 66
+L0 2 30
+R3
+r1
+!s85 0
+31
+!s108 1632713520.000000
+!s107 D:/Studies/College/3rd Sem/EC-204/lab2/Test4bitadder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/Test4bitadder.v|
+!i113 1
+R6
+R7
+n@test4bitadder
+vtestfunction
+!s110 1632688488
+!i10b 1
+!s100 kN4jUFGcHh=dGQ[T>ijoS2
+R9
+IU2KJnQCND2eo8k1P6_5hF1
+R10
+R0
+w1632688484
+R1
+R2
+!i122 36
+L0 18 44
+R3
+r1
+!s85 0
+31
+!s108 1632688488.000000
+R4
+R5
+!i113 1
+R6
+R7
+vtestMajority
+!s110 1632694096
+!i10b 1
+!s100 >K2:S@Zo75AGO>h3C6`nc3
+R9
+I`=OT93]0ZCndI;c^QKM1@1
+R10
+R0
+w1632694068
+8D:/Studies/College/3rd Sem/EC-204/lab2/TestMajority.v
+FD:/Studies/College/3rd Sem/EC-204/lab2/TestMajority.v
+!i122 54
+L0 1 23
+R3
+r1
+!s85 0
+31
+!s108 1632694095.000000
+!s107 D:/Studies/College/3rd Sem/EC-204/lab2/TestMajority.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/College/3rd Sem/EC-204/lab2/TestMajority.v|
+!i113 1
+R6
+R7
+ntest@majority

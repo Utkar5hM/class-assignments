@@ -1,0 +1,356 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Studies\College\4th Sem\EC210 - Microprocessor's LAB\lab4\hmm.uvproj
+Project File Date:  03/07/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(4): error: A1163E: Unknown opcode data1 , expecting opcode or Macro
+a.s(5): error: A1163E: Unknown opcode data2 , expecting opcode or Macro
+".\hmm.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(4): error: A1106E: Missing comma
+".\hmm.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(4): error: A1106E: Missing comma
+".\hmm.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(7): warning: A1581W: Added 3 bytes of padding at address 0x135
+linking...
+Program Size: Code=316 RO-data=0 RW-data=0 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(3): error: A1163E: Unknown opcode myData, , expecting opcode or Macro
+a.s(4): error: A1105E: Area directive missing
+a.s(4): warning: A1088W: Faking declaration of area AREA |$$$$$$$|
+a.s(6): error: A1163E: Unknown opcode reset, , expecting opcode or Macro
+a.s(9): error: A1163E: Unknown opcode R1, , expecting opcode or Macro
+a.s(10): error: A1163E: Unknown opcode R2, , expecting opcode or Macro
+a.s(12): error: A1163E: Unknown opcode R3, , expecting opcode or Macro
+a.s(13): error: A1163E: Unknown opcode R3, , expecting opcode or Macro
+a.s(14): error: A1163E: Unknown opcode str_cpy , expecting opcode or Macro
+".\hmm.axf" - 8 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(3): error: A1163E: Unknown opcode myData, , expecting opcode or Macro
+a.s(4): error: A1105E: Area directive missing
+a.s(4): warning: A1088W: Faking declaration of area AREA |$$$$$$$|
+a.s(6): error: A1163E: Unknown opcode reset, , expecting opcode or Macro
+a.s(9): error: A1163E: Unknown opcode R1, , expecting opcode or Macro
+a.s(10): error: A1163E: Unknown opcode R2, , expecting opcode or Macro
+a.s(12): error: A1163E: Unknown opcode R3, , expecting opcode or Macro
+a.s(13): error: A1163E: Unknown opcode R3, , expecting opcode or Macro
+a.s(14): error: A1163E: Unknown opcode str_cpy , expecting opcode or Macro
+".\hmm.axf" - 8 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(18): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000038) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(17): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000038) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(17): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x0000003c) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(17): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000040) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(17): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000040) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(17): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000038) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(12): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+Program Size: Code=56 RO-data=0 RW-data=0 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(12): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(12): warning: A1581W: Added 2 bytes of padding at address 0x32
+linking...
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(1): error: A1163E: Unknown opcode myData, , expecting opcode or Macro
+a.s(2): error: A1105E: Area directive missing
+a.s(2): warning: A1088W: Faking declaration of area AREA |$$$$$$$|
+a.s(3): error: A1163E: Unknown opcode reset, , expecting opcode or Macro
+a.s(8): error: A1163E: Unknown opcode LDRBS , expecting opcode or Macro
+".\hmm.axf" - 4 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(8): error: A1163E: Unknown opcode LDRBS , expecting opcode or Macro
+".\hmm.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(19): warning: A1581W: Added 2 bytes of padding at address 0x36
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000040) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(19): warning: A1581W: Added 2 bytes of padding at address 0x36
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000040) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(18): error: A1516E: Bad symbol 'str_cpy', not defined or external
+a.s(24): warning: A1581W: Added 2 bytes of padding at address 0x4a
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(24): warning: A1581W: Added 2 bytes of padding at address 0x4a
+linking...
+Program Size: Code=84 RO-data=0 RW-data=1024 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(24): warning: A1581W: Added 2 bytes of padding at address 0x4a
+linking...
+.\hmm.axf: Error: L6221E: Execution region ER_RO with Execution range [0x00000000,0x00000054) overlaps with Execution region ER_RW with Execution range [0x00000000,0x00000400).
+".\hmm.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(29): warning: A1581W: Added 2 bytes of padding at address 0x66
+linking...
+Program Size: Code=116 RO-data=0 RW-data=1024 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(34): error: A1108E: Multiply defined symbol 'ip'
+".\hmm.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=1024 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=1024 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=1024 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=1024 ZI-data=0  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(1): error: A1163E: Unknown opcode AllocSpace, , expecting opcode or Macro
+a.s(2): error: A1105E: Area directive missing
+a.s(2): warning: A1088W: Faking declaration of area AREA |$$$$$$$|
+".\hmm.axf" - 2 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+a.s(39): warning: A1581W: Added 2 bytes of padding at address 0x8e
+linking...
+Program Size: Code=156 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+linking...
+Program Size: Code=140 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+linking...
+Program Size: Code=144 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling a.s...
+linking...
+Program Size: Code=148 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling b.s...
+b.s(16): error: A1516E: Bad symbol 'nf', not defined or external
+b.s(18): error: A1516E: Bad symbol 'lth', not defined or external
+".\hmm.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling b.s...
+linking...
+Program Size: Code=128 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling b.s...
+b.s(35): warning: A1581W: Added 3 bytes of padding at address 0x71
+linking...
+Program Size: Code=128 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling b.s...
+b.s(35): warning: A1581W: Added 3 bytes of padding at address 0x71
+linking...
+Program Size: Code=128 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling b.s...
+b.s(35): warning: A1581W: Added 3 bytes of padding at address 0x71
+linking...
+Program Size: Code=128 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(53): warning: A1581W: Added 3 bytes of padding at address 0xb5
+linking...
+Program Size: Code=196 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling c.s...
+c.s(53): warning: A1581W: Added 3 bytes of padding at address 0xb5
+linking...
+Program Size: Code=196 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(53): warning: A1581W: Added 3 bytes of padding at address 0xb5
+linking...
+Program Size: Code=196 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(54): warning: A1581W: Added 3 bytes of padding at address 0xb9
+linking...
+Program Size: Code=200 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(58): warning: A1581W: Added 2 bytes of padding at address 0xc6
+linking...
+Program Size: Code=220 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(64): warning: A1581W: Added 2 bytes of padding at address 0xce
+linking...
+Program Size: Code=228 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(10): error: A1517E: Unexpected operator equal to or equivalent to =
+".\hmm.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(10): error: A1517E: Unexpected operator equal to or equivalent to =
+".\hmm.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(65): warning: A1581W: Added 2 bytes of padding at address 0xd2
+linking...
+Program Size: Code=232 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(66): warning: A1581W: Added 3 bytes of padding at address 0xd5
+linking...
+Program Size: Code=236 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(37): warning: A1581W: Added 3 bytes of padding at address 0x75
+linking...
+Program Size: Code=140 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(37): warning: A1581W: Added 3 bytes of padding at address 0x75
+linking...
+Program Size: Code=140 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'Target 1'
+assembling c.s...
+c.s(37): warning: A1581W: Added 3 bytes of padding at address 0x75
+linking...
+Program Size: Code=140 RO-data=0 RW-data=0 ZI-data=1024  
+".\hmm.axf" - 0 Errors, 1 Warning(s).

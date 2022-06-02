@@ -1,0 +1,110 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 AREA             AllocSpace, DATA,NOINIT,READWRI
+TE
+    3 00000000         ;Space for storing result
+    4 00000000         ;Utkarsh && Arnav Lab6
+    5 00000000         bcd     SPACE            4           ;
+    6 00000004         ;Actual Code
+    7 00000004                 AREA             hmm, CODE, READWRITE
+    8 00000000                 EXPORT           Reset_Handler
+    9 00000000         Reset_Handler
+   10 00000000         ;address to the input number
+   11 00000000 E59F1020        LDR              R1, =asc    ;
+   12 00000004 E59F2020        LDR              R2, =cf     ;
+   13 00000008         ;address to the result
+   14 00000008 E59F3020        LDR              R3, =bcd    ;
+   15 0000000C E5914000        LDR              R4, [R1]    ; load ascii val
+   16 00000010 E5925000        LDR              R5, [R2]    ; load conv factor
+   17 00000014 E0445005        SUB              R5, R4, R5  ;
+   18 00000018 E5835000        STR              R5, [R3]    ; storing quotient
+   19 0000001C EAFFFFFE 
+                       stop    BAL              stop
+   20 00000020         ; input_number
+   21 00000020 31 32 31 
+              32       asc     DCB              "1212"      ;
+   22 00000024 30303030 
+                       cf      DCD              0x30303030  ;
+   23 00000028                 END
+              00000000 
+              00000000 
+              00000000 
+Command Line: --debug --xref --apcs=interwork --depend=.\75a.d -o.\75a.o -IC:\K
+eil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --list
+=.\75a.lst 75a.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+AllocSpace 00000000
+
+Symbol: AllocSpace
+   Definitions
+      At line 2 in file 75a.s
+   Uses
+      None
+Comment: AllocSpace unused
+bcd 00000000
+
+Symbol: bcd
+   Definitions
+      At line 5 in file 75a.s
+   Uses
+      At line 14 in file 75a.s
+Comment: bcd used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 9 in file 75a.s
+   Uses
+      At line 8 in file 75a.s
+Comment: Reset_Handler used once
+asc 00000020
+
+Symbol: asc
+   Definitions
+      At line 21 in file 75a.s
+   Uses
+      At line 11 in file 75a.s
+Comment: asc used once
+cf 00000024
+
+Symbol: cf
+   Definitions
+      At line 22 in file 75a.s
+   Uses
+      At line 12 in file 75a.s
+Comment: cf used once
+hmm 00000000
+
+Symbol: hmm
+   Definitions
+      At line 7 in file 75a.s
+   Uses
+      None
+Comment: hmm unused
+stop 0000001C
+
+Symbol: stop
+   Definitions
+      At line 19 in file 75a.s
+   Uses
+      At line 19 in file 75a.s
+Comment: stop used once
+5 symbols
+340 symbols in table

@@ -1,0 +1,46 @@
+|decade_counter
+count_up => Mux2.IN12
+count_up => Mux2.IN13
+count_up => Mux1.IN14
+count_up => Mux1.IN15
+count_up => Mux2.IN14
+count_up => Mux2.IN15
+count_up => Mux0.IN14
+count_up => Mux0.IN15
+count_up => Mux3.IN15
+count_up => Mux3.IN14
+count_up => Mux0.IN12
+count_up => Mux0.IN13
+count_up => Mux1.IN12
+count_up => Mux1.IN13
+count_up => Mux2.IN8
+count_up => Mux2.IN9
+count_up => Mux2.IN10
+count_up => Mux2.IN11
+reset => state[0].ACLR
+reset => state[1].ACLR
+reset => state[2].ACLR
+reset => state[3].ACLR
+load => state.OUTPUTSELECT
+load => state.OUTPUTSELECT
+load => state.OUTPUTSELECT
+load => state.OUTPUTSELECT
+counter_on => state.OUTPUTSELECT
+counter_on => state.OUTPUTSELECT
+counter_on => state.OUTPUTSELECT
+counter_on => state.OUTPUTSELECT
+clk => state[0].CLK
+clk => state[1].CLK
+clk => state[2].CLK
+clk => state[3].CLK
+data_in[0] => state.DATAB
+data_in[1] => state.DATAB
+data_in[2] => state.DATAB
+data_in[3] => state.DATAB
+count[0] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+count[1] << Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+count[2] << Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+count[3] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+TC << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,70 @@
+module serial_adder(
+input ain, bin, clock, start, reset_n,
+output reg [7:0] sum, output reg done, cout);
+wire [7:0] regxqwire, regyqwire, regsumqwire;
+wire faSumWire, faCarryWire, dFFqCarry;
+reg [3:0] counter =4'b1111;
+reg [7:0] D =0;
+reg load = 0, shiftR =1;
+assign sum = regsumqwire;
+assign cout = faCarryWire;
+assign shiftR = ~done;
+
+shiftreg regX(.D(D), .load(load), .shiftR(shiftR),.lin(ain), .clock(clock), .Q(regxqwire));
+
+shiftreg regY(.D(D), .load(load), .shiftR(shiftR),.lin(bin), .clock(clock), .Q(regyqwire));
+
+shiftreg regSum(.D(D), .load(load), .shiftR(shiftR),.lin(faSumWire), .clock(clock), .Q(regsumqwire));
+
+fulladder fa(.a(regxqwire[0]), .b(regyqwire[0]), .cin(dFFqCarry), .sum(faSumWire), .cout(faCarryWire));
+
+dff da(.d(faCarryWire), .reset(load), .clock(clock), .q(dFFqCarry));
+
+
+always @(posedge clock, negedge reset_n)
+begin
+if(!reset_n) begin
+load<= 1;
+counter<=15;
+done<=0;
+end else if(start) begin
+load<= 0;
+if(counter >0) begin done <= 0;
+counter<= counter -1; 
+end
+else done <=1;
+end
+end
+endmodule
+
+
+//single bit full adder module required.
+module fulladder(input a, b, cin, output sum, cout);
+assign sum = cin^(a^b);
+assign cout = (a&b) | cin&(a^b);
+endmodule
+
+
+// D flip flop
+module dff(input d, reset, clock, output reg q);
+always@(posedge clock, posedge reset)
+begin
+if(reset) q=0;
+else begin
+q=d;
+end
+end
+endmodule
+
+
+//8 bit shift register with load support.
+module shiftreg (input [7:0]D, input load, shiftR, lin, clock, output reg [7:0]Q);
+always @(load)
+begin
+if(load) Q<=D;
+end
+always @(posedge clock)
+begin
+if(shiftR) Q <= {lin, Q[7:1]};
+end
+endmodule

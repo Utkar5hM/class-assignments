@@ -1,0 +1,111 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 AREA             AllocSpace, DATA,NOINIT,READWRI
+TE
+    3 00000000         ;Space for storing result
+    4 00000000         ;Utkarsh && Arnav Lab6
+    5 00000000         c       SPACE            8           ;
+    6 00000008         ;Actual Code
+    7 00000008                 AREA             hmm, CODE, READWRITE
+    8 00000000                 EXPORT           Reset_Handler
+    9 00000000         Reset_Handler
+   10 00000000         ;address to the input number
+   11 00000000 E59F1024        LDR              R1, =a      ;
+   12 00000004 E59F2024        LDR              R2, =bi     ;
+   13 00000008         ;address to the result
+   14 00000008 E59F3024        LDR              R3, =c      ;
+   15 0000000C E5914000        LDR              R4, [R1]    ; load a
+   16 00000010 E5925000        LDR              R5, [R2]    ; load b
+   17 00000014 E0876495        UMULL            R6, R7, R5, R4 ; unsigned mult
+   18 00000018 E5836000        STR              R6, [R3]    ; storing low
+   19 0000001C E5837004        STR              R7, [R3, #4] ; storing high
+   20 00000020 EAFFFFFE 
+                       stop    BAL              stop
+   21 00000024         ; input_number
+   22 00000024 0007A120 
+                       a       DCD              0x7A120     ;
+   23 00000028 000CF850 
+                       bi      DCD              0xCF850     ;
+   24 0000002C                 END
+              00000000 
+              00000000 
+              00000000 
+Command Line: --debug --xref --apcs=interwork --depend=.\q1.d -o.\q1.o -IC:\Kei
+l\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --list=.
+\q1.lst q1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+AllocSpace 00000000
+
+Symbol: AllocSpace
+   Definitions
+      At line 2 in file q1.s
+   Uses
+      None
+Comment: AllocSpace unused
+c 00000000
+
+Symbol: c
+   Definitions
+      At line 5 in file q1.s
+   Uses
+      At line 14 in file q1.s
+Comment: c used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 9 in file q1.s
+   Uses
+      At line 8 in file q1.s
+Comment: Reset_Handler used once
+a 00000024
+
+Symbol: a
+   Definitions
+      At line 22 in file q1.s
+   Uses
+      At line 11 in file q1.s
+Comment: a used once
+bi 00000028
+
+Symbol: bi
+   Definitions
+      At line 23 in file q1.s
+   Uses
+      At line 12 in file q1.s
+Comment: bi used once
+hmm 00000000
+
+Symbol: hmm
+   Definitions
+      At line 7 in file q1.s
+   Uses
+      None
+Comment: hmm unused
+stop 00000020
+
+Symbol: stop
+   Definitions
+      At line 20 in file q1.s
+   Uses
+      At line 20 in file q1.s
+Comment: stop used once
+5 symbols
+340 symbols in table

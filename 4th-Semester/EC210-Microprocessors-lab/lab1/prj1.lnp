@@ -1,0 +1,5 @@
+--cpu ARM7TDMI
+".\first_program_164_109.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x00000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\prj1.map" -o .\prj1.axf

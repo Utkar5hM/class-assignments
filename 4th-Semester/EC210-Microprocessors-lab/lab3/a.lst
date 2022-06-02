@@ -1,0 +1,70 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             qthreetwo, CODE, READONLY
+    2 00000000                 EXPORT           Reset_Handler
+    3 00000000         Reset_Handler
+    4 00000000 E3A01101 
+                       Start   MOV              R1, #0x40000000 ; Address of th
+                                                            e memory where the
+    5 00000004         ; number is present
+    6 00000004 E3A03000        MOV              R3, #0      ; R3 holds the resu
+                                                            lt
+    7 00000008 E4910004        LDR              R0, [R1], #4 ; Load the first n
+                                                            umber & advance ptr
+                                                             
+    8 0000000C E4912004        LDR              R2, [R1], #4 ; Load the second 
+                                                            number  & advance p
+                                                            tr
+    9 00000010 E1500002        CMP              R0, R2      ; compare
+   10 00000014 C28330FF        ADDGT            R3, #0xFF   ; add if greater th
+                                                            an(signed)
+   11 00000018 EAFFFFFE 
+                       Stop    B                Stop
+   12 0000001C                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\a.d -o.\a.o -IC:\Keil\
+ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --list=.\a
+.lst 3_7\a.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 3 in file 3_7\a.s
+   Uses
+      At line 2 in file 3_7\a.s
+Comment: Reset_Handler used once
+Start 00000000
+
+Symbol: Start
+   Definitions
+      At line 4 in file 3_7\a.s
+   Uses
+      None
+Comment: Start unused
+Stop 00000018
+
+Symbol: Stop
+   Definitions
+      At line 11 in file 3_7\a.s
+   Uses
+      At line 11 in file 3_7\a.s
+Comment: Stop used once
+qthreetwo 00000000
+
+Symbol: qthreetwo
+   Definitions
+      At line 1 in file 3_7\a.s
+   Uses
+      None
+Comment: qthreetwo unused
+4 symbols
+335 symbols in table

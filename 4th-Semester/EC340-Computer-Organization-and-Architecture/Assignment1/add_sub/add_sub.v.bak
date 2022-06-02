@@ -1,0 +1,4 @@
+module add_sub(input []a, b, input cin, t_sub, output s, output cin); // t_sub should be 0 for addition and 1 for addition.
+
+
+endmodule

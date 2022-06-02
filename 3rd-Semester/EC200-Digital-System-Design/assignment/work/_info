@@ -1,0 +1,195 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vdivision
+!s110 1640515382
+!i10b 1
+!s100 OZ9Q9Gj@EIJY9ZZAVa@d:1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:ab7A0N5L4CcI6oY<<z3F2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment
+w1640515380
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division.v
+!i122 52
+L0 1 23
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1640515382.000000
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vdivision_tb
+!s110 1640515455
+!i10b 1
+!s100 CbFO[WRM5M[GNHJXJm>FN2
+R0
+I0OOolzPkBWP[@zgj=<mcD3
+R1
+R2
+w1640515447
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division_tb.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division_tb.v
+!i122 53
+Z6 L0 2 14
+R3
+r1
+!s85 0
+31
+!s108 1640515452.000000
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/division_tb.v|
+!i113 1
+R4
+R5
+vdot_product
+!s110 1640513630
+!i10b 1
+!s100 o=16f?I2aS>]C]hN>SV[50
+R0
+ITSad51:F`4FCa?ZCleH;T1
+R1
+R2
+w1640513625
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product.v
+!i122 50
+L0 1 17
+R3
+r1
+!s85 0
+31
+!s108 1640513630.000000
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product.v|
+!i113 1
+R4
+R5
+vdot_product_tb
+!s110 1640513568
+!i10b 1
+!s100 bEAo12B0h0GCJhaN;?Vje3
+R0
+IRedNY;`B6R098m6KiS5380
+R1
+R2
+w1640513511
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product_tb.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product_tb.v
+!i122 49
+L0 2 20
+R3
+r1
+!s85 0
+31
+!s108 1640513568.000000
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/dot_product_tb.v|
+!i113 1
+R4
+R5
+vfactorial
+Z7 !s110 1640515939
+!i10b 1
+!s100 D_XfYfaQ>_RT5dz3m1K^j2
+R0
+Igm0Kz<L:4UT5K3eZSjaZI2
+R1
+R2
+w1640515846
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial.v
+!i122 54
+L0 1 11
+R3
+r1
+!s85 0
+31
+!s108 1640515938.000000
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial.v|
+!i113 1
+R4
+R5
+vfactorial_tb
+R7
+!i10b 1
+!s100 :lSEG[_]elH884Yf>V__?1
+R0
+I[>_5LXmWhY^KB?0DnF]^N3
+R1
+R2
+w1640515934
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial_tb.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial_tb.v
+!i122 55
+R6
+R3
+r1
+!s85 0
+31
+!s108 1640515939.000000
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/factorial_tb.v|
+!i113 1
+R4
+R5
+vsignedmultiplier
+Z8 !s110 1640513233
+!i10b 1
+!s100 =aS=`WllQY3iI7`?J=I3l1
+R0
+I><=5nIFJDeE6Q;fHcDC5z1
+R1
+R2
+w1640510979
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier.v
+!i122 41
+L0 1 80
+R3
+r1
+!s85 0
+31
+Z9 !s108 1640513233.000000
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier.v|
+!i113 1
+R4
+R5
+vsignedmultiplier_tb
+R8
+!i10b 1
+!s100 fRFmFIlkc^nkdi9z[oMR@0
+R0
+I`=a5WA`l8;zRz:c0]RWmH0
+R1
+R2
+w1640511829
+8E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier_tb.v
+FE:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier_tb.v
+!i122 42
+L0 1 21
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Studies/College/3rd Sem/EC-200 Digital System and Design/assignment/signedmultiplier_tb.v|
+!i113 1
+R4
+R5

@@ -1,0 +1,21 @@
+Circuit: * E:\ut2\Ut\Studies\College\3rd Sem\EC-205 Analog Electronics Lab\lab2\1\1.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Oct 14 02:38:00 2021
+Total elapsed time: 0.031 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2186
+traniter = 2179
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 256 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: 592 bytes object code size  0.1/0.1/[0.1]
+

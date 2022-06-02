@@ -1,0 +1,187 @@
+|serial_adder
+ain => shiftreg:regX.lin
+bin => shiftreg:regY.lin
+clk => shiftreg:regX.clk
+clk => shiftreg:regY.clk
+clk => shiftreg:regSum.clk
+clk => dflipflop:da.clk
+clk => done~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => load.CLK
+start => done~reg0.ENA
+start => load.ENA
+start => count[3].ENA
+start => count[2].ENA
+start => count[1].ENA
+start => count[0].ENA
+resetn => done~reg0.ACLR
+resetn => count[0].PRESET
+resetn => count[1].PRESET
+resetn => count[2].PRESET
+resetn => count[3].PRESET
+resetn => load.PRESET
+sum[0] << shiftreg:regSum.Q[0]
+sum[1] << shiftreg:regSum.Q[1]
+sum[2] << shiftreg:regSum.Q[2]
+sum[3] << shiftreg:regSum.Q[3]
+sum[4] << shiftreg:regSum.Q[4]
+sum[5] << shiftreg:regSum.Q[5]
+sum[6] << shiftreg:regSum.Q[6]
+sum[7] << shiftreg:regSum.Q[7]
+done << done~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c << fulladder:fa.cout
+
+
+|serial_adder|shiftreg:regX
+D[0] => Q.DATAB
+D[1] => Q.DATAB
+D[2] => Q.DATAB
+D[3] => Q.DATAB
+D[4] => Q.DATAB
+D[5] => Q.DATAB
+D[6] => Q.DATAB
+D[7] => Q.DATAB
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+lin => Q.DATAB
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder|shiftreg:regY
+D[0] => Q.DATAB
+D[1] => Q.DATAB
+D[2] => Q.DATAB
+D[3] => Q.DATAB
+D[4] => Q.DATAB
+D[5] => Q.DATAB
+D[6] => Q.DATAB
+D[7] => Q.DATAB
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+lin => Q.DATAB
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder|shiftreg:regSum
+D[0] => Q.DATAB
+D[1] => Q.DATAB
+D[2] => Q.DATAB
+D[3] => Q.DATAB
+D[4] => Q.DATAB
+D[5] => Q.DATAB
+D[6] => Q.DATAB
+D[7] => Q.DATAB
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+load => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+shiftR => Q.OUTPUTSELECT
+lin => Q.DATAB
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder|fulladder:fa
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+cin => sum.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder|dflipflop:da
+d => q~reg0.DATAIN
+reset => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

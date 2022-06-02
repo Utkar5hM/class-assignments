@@ -1,0 +1,22 @@
+{E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab8/verilog/testbench2.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab8/verilog/testbench2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench2
+
+Top level modules:
+	testbench2
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab8/verilog/q2.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab8/verilog/q2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sequenceMealy
+
+Top level modules:
+	sequenceMealy
+
+} {} {}} {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab8/verilog/q3.v} {1 {vlog -work work -stats=none {E:/Studies/College/3rd Sem/EC-204 Digital System and Design Lab/lab8/verilog/q3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vendingMachine
+
+Top level modules:
+	vendingMachine
+
+} {} {}}
